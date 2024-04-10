@@ -39,6 +39,5 @@ class VinylController extends AbstractController
             'genre' => $genre
         ]);
     }
-            
-
+   
     }
