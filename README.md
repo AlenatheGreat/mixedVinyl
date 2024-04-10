@@ -13,6 +13,7 @@ At this moment the following topics already done:
   <li>Twig </li>
   <li>Profiler</li>
   <li> Bundles </li>
+<li> Webpack Encore </li>
 </ul>
 In a future tutorial, we're going to create a database to manage songs, genres, and the mixed vinyl records that our users are creating. 
 Right now, we're working entirely with hardcoded data... 
