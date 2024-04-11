@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 
+use Monolog\Logger;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -21,7 +22,7 @@ class SongAPIController extends AbstractController
             'url' => 'https://symfonycasts.s3.amazonaws.com/sample.mp3',
         ];
 
-        $logger ->info('Returning API response for song {song}', ['song'=> $id]);
+        $logger->info('Returning API response for song {song}', ['song'=> $id]);
 
         return new JsonResponse($song);
     }
